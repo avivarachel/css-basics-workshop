@@ -10,8 +10,11 @@ html {
 .img {
    float: left;
    position: relative;
-   width: 20%;
    padding-bottom: 20%;
+}
+
+img {
+    width: 100%;
 }
 
 .imgInner {
