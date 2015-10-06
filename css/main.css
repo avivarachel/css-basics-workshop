@@ -1,1 +1,30 @@
 /* write your css here */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding: 0.5em;
+}
+
+nav li {
+    border: solid white;
+    padding: 0.5em;
+    line-height: 1;
+    display: inline-block;
+    
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
